@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experimentos JS</title>
+    <meta name="description" content="...">
+    <meta name="keywords" content="sites,web, frontend">
+    <meta name="author" content="Hebertt Rafael, heberttrafael4528@gmail.com">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+
+    <script>
+        console.log("Olá, mundo!");
+        // alert("Bem-vindo ao meu site"); "Alert"
+        console.log(document.getElementsByTagName("h1")[0]);
+    </script>
+</head>
+
+<body>
+    <h1>Experimentos <abbr title="JavaScript">JS</abbr></h1>
+
+    <script>
+        window.onload = (event) => {
+            console.log("Olá, mundo! - Página foi carregada!");
+            meu_h1 = document.getElementsByTagName("h1")[0];
+            console.log(meu_h1);
+        };
+    </script>
+</body>
+
+</html>
